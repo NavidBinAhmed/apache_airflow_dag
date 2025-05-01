@@ -31,7 +31,12 @@
 
 ## Implementation of DAGs
 1. I am developing a DAG for my data pipeline ETL project
-2. Another for an ML algorithm preferance project
+
+![image](https://github.com/user-attachments/assets/af1c3801-e3c6-4b87-9a24-0c42b12a7d0b)
+
+yeaaaa....scheduled a run (today) for ETL and works as expected. (ongoing)
+
+3. Another for an ML algorithm preferance project
 
 Both supports scheduling, dependancies, execution and processes.
 
