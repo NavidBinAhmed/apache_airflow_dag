@@ -21,7 +21,7 @@
 6. list
    `docker ps`
 
-7. run `localhost:8080` on browser with username and password `airflow`
+7. run `localhost:8081` on browser with username and password `airflow`
 
 
 ![image](https://github.com/user-attachments/assets/6aafeeb1-ba95-4513-a403-127ab724abe8)
@@ -50,5 +50,7 @@ ERROR: for airflow-worker  Container "1de6c71a669e" is unhealthy.
 - It finds what was going wrong.
 0027d38ebbe1   apache/airflow:3.0.0     "/usr/bin/dumb-init …"   16 minutes ago   Created      airflow-docker-airflow-worker-1
 
-- Rebuild after
+- Rebuild after running
 docker-compose down --volumes --remove-orphans
+
+and changing the external:internal ports to 8081:8080
