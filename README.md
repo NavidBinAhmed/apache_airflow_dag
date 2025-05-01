@@ -64,3 +64,8 @@ ERROR: for airflow-worker  Container "1de6c71a669e" is unhealthy.
 docker-compose down --volumes --remove-orphans
 
 and changing the external:internal ports to 8081:8080
+
+4. 'import error'
+- created virtual env and executed conda installation
+- apache airflow 3.0.0 has a change in import and worked on how the method was called: a bit changed
+  `from airflow.providers.standard.operators.python import PythonOperator`
