@@ -30,13 +30,18 @@
 .
 
 ## Implementation of DAGs
-1. I am developing a DAG for my data pipeline ETL project
+1. I am developing a DAG for my data pipeline ETL project - DONE
 
+#### Workflows: Directed Acrylic Graph
+![image](https://github.com/user-attachments/assets/a8102972-f2d4-4ff2-bafa-5570aaaa7aee)
+
+#### Runs:
 ![image](https://github.com/user-attachments/assets/af1c3801-e3c6-4b87-9a24-0c42b12a7d0b)
 
-yeaaaa....scheduled a run (today) for ETL and works as expected. (ongoing)
+yeaaaa....scheduled a run (today) for this simple ETL DAG and works as expected. (ongoing)
 
-3. Another for an ML algorithm preferance project
+
+2. Another for an ML algorithm preferance project
 
 Both supports scheduling, dependancies, execution and processes.
 
