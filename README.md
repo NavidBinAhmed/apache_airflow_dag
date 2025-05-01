@@ -24,6 +24,11 @@
 7. run `localhost:8080` on browser with username and password `airflow`
 
 
+![image](https://github.com/user-attachments/assets/6aafeeb1-ba95-4513-a403-127ab724abe8)
+
+.
+.
+
 ## Implementation of DAGs
 1. I am developing a DAG for my data pipeline ETL project
 2. Another for an ML algorithm preferance project
