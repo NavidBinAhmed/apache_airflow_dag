@@ -75,9 +75,9 @@ Step 2: Define DAG() method
 
 Step 3: Importing PythonOperator and defining flows
 
-Step 4: Sequence of workflow
+Step 4: Sequence of workflow-tasks
 
-Final: Refresh Airflow dashbard and explore the developed DAG
+Final: Refresh Airflow dashbard and explore the developed DAG in graphical and grid views
 
 .
 .
