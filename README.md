@@ -3,28 +3,39 @@
 1. write `dpcker-compose.yaml` file
 
 2. create directories
+
    `mkdir ./dags ./plugins ./logs`
 
-3. set env variables
+4. set env variables
+
    `echo -e "AIRFLOW_UID=$(id -u)\nAIRFLOW_GID=0" > .env`
 
-4. initialization airflow
+5. initialization airflow
+
    `docker-compose up airflow-init`
 
-5. building
+6. building
+
    `docker-compose up`
 
    or
 
    `docker-compose up --build`
 
-6. list
+7. list
+
    `docker ps`
 
-7. run `localhost:8081` on browser with username and password `airflow`
+9. run `localhost:8081` on browser with username and password `airflow`
 
 Summary statistics of our Airflow environment (**Home**) : Overview of UI
-![image](https://github.com/user-attachments/assets/6aafeeb1-ba95-4513-a403-127ab724abe8)
+   ![image](https://github.com/user-attachments/assets/6aafeeb1-ba95-4513-a403-127ab724abe8)
+
+Overview of all **DAGs** in our Airflow environment including example DAGs:
+   ![image](https://github.com/user-attachments/assets/154ac422-aed8-4235-957e-2b7ab86643d8)
+
+Overview of **assets** with dependencies:
+   ![image](https://github.com/user-attachments/assets/3c83f4fb-5953-4ef2-a40a-18695f09df99)
 
 .
 .
@@ -32,7 +43,7 @@ Summary statistics of our Airflow environment (**Home**) : Overview of UI
 ## Implementation of DAG Workflows: Directed Acrylic Graph
 1. DAG for my data pipeline ETL project - DONE
 
-How the first DAG (dag1) looks like:
+How the graph view of our first DAG (dag1) looks like:
    ![image](https://github.com/user-attachments/assets/a8102972-f2d4-4ff2-bafa-5570aaaa7aee)
 
 **Status** of grid on the workflow:
@@ -50,10 +61,12 @@ yeaaaa....scheduled a run (today) for this simple ETL DAG and works as expected.
 
 3. DAG for selecting the best ML algorithm based on accuracies
 
-Overview of **assets** with dependencies:
    ![image](https://github.com/user-attachments/assets/b2ba3558-8e67-4138-9b3c-bb3019400cc0)
 
 Both supports scheduling, dependancies, execution and processes.
+
+.
+.
 
 ## Coding Algorithm
 Step 1: Importing airflow, datetime
