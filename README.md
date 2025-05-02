@@ -1,6 +1,6 @@
 ## Steps of implementation - Running Airflow on Docker
 
-1. write `dpcker-compose.yaml` file
+1. write `docker-compose.yaml` file and inspect it
 
 2. create directories
 
