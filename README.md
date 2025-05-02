@@ -43,10 +43,10 @@ yeaaaa....scheduled a run (today) for this simple ETL DAG and works as expected.
 
 2. DAG for an ETL pipeline with feedback - DONE
 
-Overview of **assets** with dependencies:
+**Graph** visualization of the DAG's dependencies and their current status for a specific run.
    ![image](https://github.com/user-attachments/assets/9f70218f-7a99-4805-80ad-b0d348ccb5e2)
 
-**Grid** representation DAG that spans over schdeduled/ manual time:
+**Grid** representation DAG that spans across schdeduled/ manual time:
    ![image](https://github.com/user-attachments/assets/1bc73708-ee8a-4004-964b-ddac9888c4bf)
 
 3. DAG for selecting the best ML algorithm based on accuracies
