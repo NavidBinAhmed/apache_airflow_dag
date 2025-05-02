@@ -23,8 +23,7 @@
 
 7. run `localhost:8081` on browser with username and password `airflow`
 
-Overview of UI DAGs in my environment:
-
+Summary statistics of our Airflow environment (**Home**) : Overview of UI
 ![image](https://github.com/user-attachments/assets/6aafeeb1-ba95-4513-a403-127ab724abe8)
 
 .
