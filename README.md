@@ -32,7 +32,7 @@ Summary statistics of our Airflow environment (**Home**) : Overview of UI
 ## Implementation of DAG Workflows: Directed Acrylic Graph
 1. DAG for my data pipeline ETL project - DONE
 
-Overview of **assets**:
+How the first DAG (dag1) looks like:
    ![image](https://github.com/user-attachments/assets/a8102972-f2d4-4ff2-bafa-5570aaaa7aee)
 
 **Status** of grid on the workflow:
