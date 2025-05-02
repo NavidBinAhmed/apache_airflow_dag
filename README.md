@@ -33,20 +33,26 @@ Overview of UI DAGs in my environment:
 ## Implementation of DAG Workflows: Directed Acrylic Graph
 1. DAG for my data pipeline ETL project - DONE
 
-![image](https://github.com/user-attachments/assets/a8102972-f2d4-4ff2-bafa-5570aaaa7aee)
+Overview of **assets**:
+   ![image](https://github.com/user-attachments/assets/a8102972-f2d4-4ff2-bafa-5570aaaa7aee)
 
 
-![image](https://github.com/user-attachments/assets/af1c3801-e3c6-4b87-9a24-0c42b12a7d0b)
+   ![image](https://github.com/user-attachments/assets/af1c3801-e3c6-4b87-9a24-0c42b12a7d0b)
 
 yeaaaa....scheduled a run (today) for this simple ETL DAG and works as expected. (ongoing)
 
 2. DAG for an ETL pipeline with feedback - DONE
 
+Overview of **assets** with dependencies:
    ![image](https://github.com/user-attachments/assets/9f70218f-7a99-4805-80ad-b0d348ccb5e2)
+
+**Grid** representation DAG that spans over schdeduled/ manual time:
+   ![image](https://github.com/user-attachments/assets/1bc73708-ee8a-4004-964b-ddac9888c4bf)
 
 3. DAG for selecting the best ML algorithm based on accuracies
 
-![image](https://github.com/user-attachments/assets/b2ba3558-8e67-4138-9b3c-bb3019400cc0)
+Overview of **assets** with dependencies:
+   ![image](https://github.com/user-attachments/assets/b2ba3558-8e67-4138-9b3c-bb3019400cc0)
 
 Both supports scheduling, dependancies, execution and processes.
 
