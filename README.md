@@ -70,9 +70,17 @@ Both supports scheduling, dependancies, execution and processes.
 
 ## Coding Algorithm
 Step 1: Importing airflow, datetime
+
 Step 2: Define DAG() method
+
 Step 3: Importing PythonOperator and defining flows
+
 Step 4: Sequence of workflow
+
+Final: Refresh Airflow dashbard and explore the developed DAG
+
+.
+.
 
 ## How I resolved issues
 1. 'Docker Compose' was not working
