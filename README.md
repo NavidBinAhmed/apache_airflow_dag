@@ -35,7 +35,7 @@ Summary statistics of our Airflow environment (**Home**) : Overview of UI
 Overview of **assets**:
    ![image](https://github.com/user-attachments/assets/a8102972-f2d4-4ff2-bafa-5570aaaa7aee)
 
-
+**Status** of grid on the workflow:
    ![image](https://github.com/user-attachments/assets/af1c3801-e3c6-4b87-9a24-0c42b12a7d0b)
 
 yeaaaa....scheduled a run (today) for this simple ETL DAG and works as expected. (ongoing)
